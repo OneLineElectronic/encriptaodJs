@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 *{
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: .05px;
+    padding-left: .05px;
 }
 body {
     font-family: sans-serif;
@@ -17,12 +17,10 @@ body {
 
 }
 
-
 .area{
     background:  #033a75;  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
-  
-    height:100vh;
+    height:110vh;
     
    
 }
@@ -124,8 +122,6 @@ body {
     animation-duration: 11s;
 }
 
-
-
 @keyframes animate {
 
     0%{
@@ -135,13 +131,12 @@ body {
     }
 
     100%{
-        transform: translateY(-1000px) rotate(720deg);
+        transform: translateY(-1100px) rotate(720deg);
         opacity: 0;
         border-radius: 50%;
     }
 
 }
-
 
 .container {
     width: 50%;
@@ -165,6 +160,10 @@ p{
     color:#fffbfbb4;
 }
 
+p1{
+    margin: 5px;
+    color:#fffbfbb4;
+}
 
 label {
     display: block;
@@ -185,7 +184,7 @@ select {
 textarea {
     width: 100%;
     height: 100px;
-    padding: 0px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     resize: vertical;
@@ -201,4 +200,3 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
 }
-
